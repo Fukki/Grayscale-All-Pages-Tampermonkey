@@ -100,7 +100,6 @@
         }
     });
 
-    // สำหรับเว็บที่เปลี่ยน DOM บ่อย (เช่น YouTube)
     const observer = new MutationObserver(() => {
         if (enabled && !document.getElementById(STYLE_ID)) addStyle();
     });
